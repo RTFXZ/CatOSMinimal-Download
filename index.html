@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CatOS Minimal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background: #111;
+      color: #eee;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background: #1a1a1a;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 2px solid #333;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      color: #ff6f61;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+    main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .download {
+      text-align: center;
+      margin: 3rem 0;
+    }
+    .download a {
+      background: #ff6f61;
+      color: #111;
+      padding: 1rem 2rem;
+      font-size: 1.5rem;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: background 0.3s;
+    }
+    .download a:hover {
+      background: #ff3b2e;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    section h2 {
+      color: #ff6f61;
+      margin-bottom: 0.5rem;
+    }
+    section ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    section ul li {
+      background: #222;
+      margin: 0.5rem 0;
+      padding: 0.8rem 1rem;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #1a1a1a;
+      border-top: 2px solid #333;
+      color: #aaa;
+    }
+    a.repo {
+      color: #ff6f61;
+      text-decoration: none;
+    }
+    a.repo:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>CatOS Minimal</h1>
+  <p>A lightweight terminal-first Linux distro for amd64</p>
+   <nav>
+    <a href="https://github.com/RTFXZ/CatOSMinimal-Download/discussions" target="_blank">Forum</a>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <h2>Features</h2>
+    <ul>
+      <li>Terminal-first minimal design</li>
+      <li>apt package manager ready</li>
+      <li>Pre-installed Firefox & PCManFM</li>
+      <li>Optional desktop manager installation</li>
+      <li>Lightweight and secure</li>
+    </ul>
+  </section>
+
+  <section class="download">
+    <h2>Download CatOS Minimal</h2>
+    <a href="https://release-assets.githubusercontent.com/github-production-release-asset/1111100002/df5cf32f-ba47-4545-b668-b16195814728?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-12-06T19%3A01%3A51Z&rscd=attachment%3B+filename%3Dcatos-minimalv1.amd64.iso&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-12-06T18%3A01%3A09Z&ske=2025-12-06T19%3A01%3A51Z&sks=b&skv=2018-11-09&sig=YJtXyQFBmy1zc5bSnOTBwN6QicgAw%2BxcNX6uHaprF4w%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc2NTA0Nzg2MiwibmJmIjoxNzY1MDQ0MjYyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.dX-GTmx722Vy5CGXaxzL4U-GKSct_2DooC0_uC2C4ZA&response-content-disposition=attachment%3B%20filename%3Dcatos-minimalv1.amd64.iso&response-content-type=application%2Foctet-stream" target="_blank">
+      Download ISO (amd64)
+    </a>
+  </section>
+
+  <section>
+    <h2>Source Code</h2>
+    <p>Check out the full build scripts and configs on GitHub: <a class="repo" href="https://github.com/RTFXZ/CatOS-Minimal" target="_blank">CatOS Minimal Repo</a></p>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 RTFXZ. All rights reserved.
+</footer>
+
+</body>
+</html>
